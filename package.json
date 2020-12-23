@@ -1,0 +1,22 @@
+{
+  "name": "node-restful-shop-api",
+  "version": "1.0.0",
+  "description": "A simple and first RESTful Shop Api made with node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashaytiwari/Node-RESTful-Shop-Api.git"
+  },
+  "author": "Ashay Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashaytiwari/Node-RESTful-Shop-Api/issues"
+  },
+  "homepage": "https://github.com/ashaytiwari/Node-RESTful-Shop-Api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
