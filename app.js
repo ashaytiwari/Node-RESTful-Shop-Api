@@ -14,7 +14,8 @@ mongoose.connect("mongodb+srv://ashay:" +
     process.env.MONGO_ATLAS_DB +
     "?retryWrites=true&w=majority", { 
         useNewUrlParser: true 
-})
+});
+mongoose.Promise = global.Promise;
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
