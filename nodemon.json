@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGO_ATLAS_PW": "ashay",
+        "MONGO_ATLAS_DB ": "Node Restful Shop Api"
+    }
+}
