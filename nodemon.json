@@ -1,6 +1,7 @@
 {
     "env": {
         "MONGO_ATLAS_PW": "ashay",
-        "MONGO_ATLAS_DB ": "Node Restful Shop Api"
+        "MONGO_ATLAS_DB ": "Node Restful Shop Api",
+        "JWT_KEY": "Harekrishna"
     }
 }
