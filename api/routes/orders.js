@@ -6,7 +6,7 @@ const checkAuth = require('../middleware/check-auth');
 const Order = require('../models/order');
 const Product = require('../models/product');
 
-router.get('/', checkAuth, (req, res, next) => {
+router.get('/', (req, res, next) => {
     Order.find()
         .select('product orderBy quantity _id')
         .populate('product', "name price")
