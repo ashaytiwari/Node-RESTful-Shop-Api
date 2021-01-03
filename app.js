@@ -24,6 +24,7 @@ app.use(bodyParser.json());
 
 // Headers for handling cors error provided by Browser
 app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
     res.header("Allow-Control-Allow-Origin", "*");
     res.header("Allow-Control-Allow-Header", "Origin, X-Requested-With, Content-Type, Accept, Authoriztion");
     if (req.method === 'OPTIONS') {
