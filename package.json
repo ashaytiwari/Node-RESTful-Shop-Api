@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A simple and first RESTful Shop Api made with node js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set NODE_ENV=development && node server.js",
-    "start-prod": "set NODE_ENV=production && node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
